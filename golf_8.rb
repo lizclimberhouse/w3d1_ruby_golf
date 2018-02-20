@@ -12,29 +12,10 @@ require 'pry'
     i = z.length + y.length
     t = 0
     a.each do |x|
-      b.include?(x) && t += 1 # not entirely sure how this works
+      b.include?(x) && t += 1 
     end
 
-    # binding.pry 
     puts i / t.to_f
   end
   a
 # 124
-
-# I am sure there is a shorter way to do this.
-  # Also, I need to learn regex pronto.
-
-  # def love_test#(s,y)
-  #   puts "enter a string"
-  #   s = gets.strip
-  #   puts "enter another string"
-  #   y = gets.strip
-  #   t = 0
-  #   [s,y].each { |l| l.gsub!(' ','') }
-  #   x = s.length + y.length
-  #   s.split('').each do |c| 
-  #     y.split('').include?(c) && t += 1 
-  #   end
-  #   puts x / t
-  # end
-  # love_test

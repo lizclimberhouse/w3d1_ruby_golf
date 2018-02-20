@@ -3,15 +3,8 @@
 
 def s
   a =  [*1..100]
-  # a = []
-  # i = 0
-  # while i < 100
-  #   i += 1
-  #   a << i
-  # end
   a.each do |x|
     if x % 15 == 0
-    # if x % 3 == 0 && x % 5 == 0
       puts "Fizz Buzz"
     elsif x % 3 == 0
       puts "Fizz"
@@ -25,4 +18,3 @@ end
 s
 
 # 64
-# original 88

@@ -8,21 +8,12 @@ def m(a)
   b.shuffle!
 
   d = []
-  a.length.times { d << b.pop(2)} # still figuring out how this works exactly
+  a.length.times { d << b.pop(2)} 
   print d
 end
 m(a)
 
 # 61
-#   while b.length > 0  # can't get this to work
-#     i = 0
-#     d = []
-#     while i < 2
-#       i += 1
-#       d << b.pop(2)
-#     end
-#   end
-#   print d
-# end
+
 
 
