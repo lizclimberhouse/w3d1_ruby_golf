@@ -6,8 +6,7 @@ def a
   s = gets.strip
   puts "enter a sub string"
   c = gets.strip
-  b = s.scan(/(?=#{c})/).count
-  puts b
+  puts b = s.scan(/(?=#{c})/).count
 end
 a
-# 51 or 25 if we want to just get rid of the b = 
+# 25

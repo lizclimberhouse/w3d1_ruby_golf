@@ -5,6 +5,7 @@ def k
   a = gets.strip.downcase
   b = a.split(", ")
   c = {}
+  b.sort!
   x = b.uniq
 
   x.each_with_index do |y, i|
@@ -14,5 +15,5 @@ def k
 end
 k
 
-# 81
+# 87
 # I'm not entirely sure I have the instructions right on this one.
